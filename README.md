@@ -47,8 +47,15 @@ h2o-skill/
 
 ## Using it
 
-Drop the `h2o-skill` folder into your Claude Skills directory (Claude Code:
-`~/.claude/skills/`, or install via the Claude.ai skills/plugin interface).
+**Claude Code / Claude.ai:** drop the `h2o-skill` folder into your Claude
+Skills directory (`~/.claude/skills/`), or install via the Claude.ai
+skills/plugin interface.
+
+**OpenAI Codex CLI:** Codex now reads the same `SKILL.md` format natively.
+Place the folder under `~/.codex/skills/` (or your project's
+`.agents/skills/`) instead. The content works as-is; only the folder
+location differs between the two tools.
+
 Trigger it by name — "H2O", "run H2O", "H2O it" — or it fires automatically
 on marketing-strategy requests ("presell my offer", "why isn't my marketing
 converting", "map out my customer's objections").
